@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HaNeul's Web</title>
+</head>
+<body>
+    <header>
+        <img src="./images/logo.jpg" alt="logo">
+        <h1>HaNeul site</h1>
+        <nav>
+            <ul>
+                <li>menu01</li>
+                <li>menu02</li>
+                <li>menu03</li>
+                <li>menu04</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="Photo">
+            <img src="./images/bigdata.jpg" alt="bigdata">
+            <br>
+            <h2>좋아하는 오디오</h2>
+            <audio autoplay loop src="./media/music01.mp3" controls></audio>
+            <h2>환경을 사랑합니다</h2>
+            <video width="50%" height="50%" controls autoplay loop src="./media/movie.mp4"
+            <hr>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gLSE-vy5t9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <hr>
+            <iframe src="start.html" frameborder="0" width="70%" height="240px">
+                지원되지 않는 브라우저입니다.
+            </iframe>
+        </div>
+        <div id="profile">
+            <h2>Haneul Profile</h2>
+            <table border="1">
+                <tr>
+                    <th>일자</th>
+                    <th>내용</th>
+                    <th>구분</th>
+                </tr>
+                <tr>
+                    <td>현재</td>
+                    <td>동아대학교 경영정보학과 재학</td>
+                    <td>2학년</td>
+                </tr>
+                <tr>
+                    <td>21.3~21.8</td>
+                    <td>어깨동무 봉사활동</td>
+                    <td>지도</td>
+                </tr>
+                <tr>
+                    <td>20.3~21.7</td>
+                    <td>어학연수</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+        <div id="link">
+            <a href="http://www.donga.ac.kr" target="_blank">동아대학교</a> <br>
+        </div>
+    </section>
+    <footer>&copy; HaNeul</footer>
+</body>
+</html>
